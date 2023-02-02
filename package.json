@@ -1,0 +1,32 @@
+{
+  "name": "sundaynightrevue.ca",
+  "version": "1.0.0",
+  "description": "Official website for The Sunday Night Revue at Irene's Pub every week at 8:30pm.",
+  "browserslist": "last 30 versions",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "node src/js/gallerySetup.js && parcel",
+    "build": "node src/js/gallerySetup.js && parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nik-field/sundaynightrevue.ca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nik-field/sundaynightrevue.ca/issues"
+  },
+  "homepage": "https://github.com/nik-field/sundaynightrevue.ca#readme",
+  "devDependencies": {
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.13",
+    "directory-tree": "^3.5.1",
+    "node-thumbnail": "^0.15.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
